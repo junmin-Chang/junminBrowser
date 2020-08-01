@@ -11,6 +11,8 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+
+
         webView.apply {
             settings.javaScriptEnabled = true
             webViewClient = WebViewClient()
